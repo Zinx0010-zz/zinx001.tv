@@ -1,0 +1,330 @@
+body {
+  font-size: 0.95rem !important;
+  background-color: #34383c !important;
+  color: white !important;
+}
+
+a:hover {
+  color: #fff !important;
+  text-decoration: underline;
+  }
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif !important; 
+  font-weight: bold !important;
+  display: inline-block;
+  padding: 0.75rem;
+  margin-right: 1rem;
+  font-size: 1.40rem !important;
+  text-transform: uppercase !important;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.58) !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-primary {
+  color: #0055b1 !important;
+  background-color: rgba(27, 75, 250, 0.2) !important;
+  border-color: #0055b1 !important;
+}
+
+.alert-info {
+  color: #10b6d3;
+  background-color: rgba(16, 182, 211, 0.2);
+  border-color: #10b6d3;
+}
+
+.alert-info hr {
+  border-top-color: #10b6d3;
+}
+
+.alert-info .alert-link {
+  color: #062c33;
+}
+
+.alert-warning {
+  color: #faa51b !important;
+  background-color: rgba(250,165,27,0.2) !important;
+  border-color: #faa51b !important;
+}
+
+.alert-warning hr {
+  border-top-color: #faa51b !important;
+}
+
+.alert-warning .alert-link {
+  color: #fff;
+}
+
+
+.border-black {
+  border-color: #000 !important;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #18181b !important;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-sw {
+  width: 100%;
+}
+
+.list-group-item-warning {
+  color: #faa51b !important;
+  background-color: rgba(250,165,27,0.2) !important;
+}
+
+.close {
+  padding-top: .60rem !important;
+  text-shadow: 0 0px 0 !important;
+}
+
+.bg-dark {
+  background-color: #18181b !important;
+}
+
+.bg-dark-grey {
+  background-color: #181818;
+}
+
+.bg-grey {
+  background-color: #212121;
+}
+
+.bg-transparent {
+  background-color: #18181b00 !important;;
+}
+
+.index {
+  background-color: #212121 !important;
+}
+
+.rounded-top-right-0 {
+  border-top-right-radius: 0!important;
+}
+
+.rounded-top-left-0 {
+  border-top-left-radius: 0!important;
+}
+
+.rounded-bottom-right-0 {
+  border-bottom-right-radius: 0!important;
+}
+
+.rounded-bottom-left-0 {
+  border-bottom-left-radius: 0!important;
+}
+
+.rounded-bottom-0 {
+  border-bottom-left-radius: 0!important;
+  border-bottom-right-radius: 0!important;
+}
+
+.rounded-top-0 {
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+}
+
+.rounded-left {
+  border-top-left-radius: .25rem !important;
+  border-bottom-left-radius: .25rem !important;
+}
+
+@media (max-width: 575.98px) {
+  .twitchplayer {
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .twitchplayer {
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .twitchplayer {
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+  
+@media (max-width: 1199.98px) {
+  .twitchplayer {
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .twitchchat {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .twitchchat {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+  @media (max-width: 991.98px) {
+  .twitchchat {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+  
+@media (max-width: 1199.98px) {
+  .twitchchat {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #181818 !important;
+  background-clip: border-box;
+  border: 0px solid rgba(0,0,0,.125) !important;
+  border-radius: .25rem;
+}
+
+/*.card:hover {
+  transform: scale(1.05);
+}*/
+
+.card-group:hover {
+  transform: scale(1.05);
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#bg-warning {
+  color: #faa51b !important;
+  background-color: rgba(250,165,27,0.2) !important;
+  border-color: #faa51b !important;
+}
+
+.caorusel {
+  background: linear-gradient(rgba(0, 0, 255, 0), #1f2225) !important;
+}
+
+#swimg {
+  border: 0;
+  padding: 0;
+}
+
+.faa-blink {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.faa-pulse {
+  animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25)
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.border-left {
+  border-left: 3px solid !important;
+}
+
+::-webkit-scrollbar {
+  width: 12.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #333; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
